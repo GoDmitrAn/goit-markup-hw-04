@@ -9,6 +9,7 @@
   --text-overall-color: #FFF;
   --header-border: #ECECEC;
   --works-title-border: #F6F6F6;
+  --icon-color: #AFB1B8;
     
 }
 /* цвет  вторичный   #212121 */
@@ -139,7 +140,7 @@ margin-right: 10px;
   background-position: center;
 
   max-width: 1600px;
-  margin: 0auto;
+  margin: 0 auto;
   padding: 200px 0px;
 }
 .hero-section .container{
@@ -237,6 +238,7 @@ flex-basis: calc((100% - 90px) / 4);
   font-size: 16px;
   line-height: 1.19;
    text-align: center;
+   margin-bottom: 16px;
 }
 .our-team{
   background-color: var(--secondary-section-color);
@@ -260,6 +262,65 @@ flex-basis: calc((100% - 90px) / 4);
 }
 .team-list-item:not(:last-child){
   margin-right: 30px;
+}
+.team-list-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.team-soc-item + .team-soc-item {
+  margin-left: 10px;
+}
+
+.soc-icon-area {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: var(--icon-color);
+  fill: currentColor;
+}
+.soc-icon-area:hover{
+  background-color: var(--accent-color);
+  color: var(--text-overall-color);
+}
+
+.soc-icon {
+  width: 20px;
+  height: 20px;
+}
+/* *****************      client    ********************** */
+.client-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+.client-list-item {
+  flex-basis: calc((100% - 150px)/6);
+ }
+.client-list-item + .client-list-item{
+  margin-left: 30px;
+}
+.list-icon-area {
+      display: flex;
+      justify-content: center;
+      padding: 16px 0;
+      border: 1px solid #AFB1B8;
+      border-radius: 4px;
+      color: var(--icon-color);
+      fill: currentColor;
+      
+}
+.list-icon-area:hover{
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+.client-icon {
+  width: 106px;
+  height: 60px;
+  
 }
 /* ****************************footer***************************************** */
 .foot {
