@@ -9,7 +9,7 @@
   --text-overall-color: #FFF;
   --header-border: #ECECEC;
   --works-title-border: #F6F6F6;
-  
+    
 }
 /* цвет  вторичный   #212121 */
 /* цвет  основной   #757575 */
@@ -174,7 +174,7 @@ margin-right: 10px;
   text-align: center;
   margin-bottom: 50px;
 }
-/* ********features******* */
+/* **********************features******************* */
 .section.features{
  padding-bottom: 0;
 }
@@ -202,7 +202,13 @@ flex-basis: calc((100% - 90px) / 4);
 .features-list-item:not(:last-child) {
   margin-right: 30px;
 }
-
+.icon-box {
+  padding: 25px 0;
+  text-align: center;
+  margin-bottom: 30px;
+  background-color: var(--secondary-section-color);
+  border-radius: 4px;
+}
 /* ***********************what we do****************** */
 
 .doing-list{
